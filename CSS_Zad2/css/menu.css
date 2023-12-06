@@ -1,0 +1,82 @@
+body {
+    background-image: url(../images/Czerwone_Wierchy_kozi.jpg);
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed; /* tło będzie niezależne od przewijania
+    strony */
+    background-size: cover; /* tło zakryje całą powierzchnię strony */
+    } 
+     
+body {
+    background-image: url(../images/pattern.png),
+    url(../images/Czerwone_Wierchy_kozi.jpg);
+    background-color: transparent;
+    background-repeat: repeat, no-repeat;
+    background-position: center, center;
+    background-attachment: fixed;
+    background-size: auto, cover;
+    color: #fff;
+    font-family: 'Josefin Slab', Arial, sans-serif;
+    }
+        
+a {
+    color: #fff;
+    text-decoration: none;
+    }
+        
+.container {
+    position: relative;
+    }
+
+
+.content {
+    position: relative;
+    width:580px;
+    margin: 0 auto;
+    }
+        
+    h1{
+        margin: 0px;
+        padding: 20px;
+        font-size: 42px;
+        text-align: left;
+        font-weight: 400;
+        }
+        h1 span{
+        font-size:22px;
+        color:#ddd;
+        padding-top:10px;
+        }
+
+        .bmenu {
+            padding: 0px;
+             margin: 0 0 10px 0;
+             position: relative;
+        }
+        .bmenu li{
+            font-size: 50px;
+            display: block; /* wyświetlanie „blokowe” w tym wypadku usuwa znaczki
+           listy */
+           }
+
+           .bmenu li a {
+            color: transparent; /* usunięcie koloru tekstu */
+            display: block;
+            text-transform: uppercase; /* transformacja do wielkich znaków */
+            text-shadow: 0px 0px 5px #fff; /* wprowadza cień napisów */
+            letter-spacing: 1px; /* stała odległość między znakami */
+            transition: all 0.4s ease-in-out;
+            }
+
+            .bmenu:hover li a {
+                text-shadow: 0px 0px 5px #0d1a3a;
+                }
+                
+            
+                .bmenu li a:hover {
+                    color: #fff;
+                    text-shadow: 0px 0px 1px #fff;
+                    padding-left: 50px;
+                    }
+                    
